@@ -21,12 +21,12 @@ BOT_TOKEN = environ['BOT_TOKEN']
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/6a0726f79acd8300e9a04.jpg https://telegra.ph/file/68289fefb76dbc43b766d.jpg https://telegra.ph/file/0caad29c0cf91c23fb1b6.jpg https://telegra.ph/file/8c34c755dd16581c1c6b5.jpg https://telegra.ph/file/365e35b554e5a3ea83857.jpg https://telegra.ph/file/07f185825c5b7bfd6fbfb.jpg https://telegra.ph/file/85f95494565a762edb3e7.jpg https://telegra.ph/file/708a1d6ce805fcc6a46d0.jpg https://telegra.ph/file/d799c1a964f211028cc97.jpg https://telegra.ph/file/b987425b80bca0cf45c7e.jpg https://telegra.ph/file/2a8b3779760289b76de24.jpg https://telegra.ph/file/47961be968719b3e24cf0.jpg https://telegra.ph/file/2e127b0f6b1810d733c09.jpg https://telegra.ph/file/281b18770a43a29120252.jpg https://telegra.ph/file/2086dd2aa8382e758a599.jpg https://telegra.ph/file/fcc849db4bf5c517f0f8d.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/c6e9fd207e31f30d33352.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/e138bbfb9bd2b46a058e8.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e138bbfb9bd2b46a058e8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/e55bc695a38ce8b977f82.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/954664a46b4684c60c079.jpg")
 
-CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://telegra.ph/file/6e9dd701bac49632cf79a.jpg https://telegra.ph/file/998d2b84e1411ed5189e3.jpg https://telegra.ph/file/c199babd469011d07f139.jpg https://telegra.ph/file/31b6d3d2c70bbe52b5300.jpg https://telegra.ph/file/77744524fbb6305298d45.jpg https://telegra.ph/file/9d79d990674166a2a2364.jpg')).split()
+CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://graph.org/file/e138bbfb9bd2b46a058e8.jpg')).split()
 
 
 BOT_START_TIME = 'time'
@@ -52,8 +52,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://escapematrix2h:sawan09h@cluster0.blsyi8a.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Raj")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sachinkpt5153:12345678r@cluster0.jife82p.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sachinkpt")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Downloader
@@ -67,11 +67,11 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Verifying5754/3")
-VERIFY2_URL = environ.get('VERIFY2_URL', "tinyfy.in")
-VERIFY2_API = environ.get('VERIFY2_API', "055056697b8fa8d08a3d7681f4e7ed36222d8235")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '055056697b8fa8d08a3d7681f4e7ed36222d8235')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/how_to_download_KPT")
+VERIFY2_URL = environ.get('VERIFY2_URL', "vipurl.in")
+VERIFY2_API = environ.get('VERIFY2_API', "1a7ec35cb3137a15b9631aefe08d18f891631b3e")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vipurl.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '1a7ec35cb3137a15b9631aefe08d18f891631b3e')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')),True)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
